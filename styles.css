@@ -64,3 +64,32 @@ img{
         padding: 0 5rem;
     }
 }
+
+/* Navigation */
+
+.navigation{
+    padding: 1.6rem 0;
+}
+
+.nav-top {
+    display: none;
+  }
+
+.nav-center{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: var(--black);
+  }
+  
+.logo span {
+    color: var(--pink);
+  }
+
+.nav-list{
+    display: flex;
+    align-items: center;
+}
