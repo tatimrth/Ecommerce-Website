@@ -31,6 +31,7 @@ body{
     color: var(--black);
     background-color: var(--white);
     z-index: -1;
+    height: 100vh;
 }
 
 li,ul{
@@ -216,6 +217,10 @@ img{
   .nav-top .logo h1{
     font-size: 1.8rem;
     font-weight: 500;
+    color: var(--white);
+  }
+
+  .nav-top .logo span {
     color: var(--white);
   }
 
