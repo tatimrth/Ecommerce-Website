@@ -127,11 +127,11 @@ img{
     transform-origin: left;
   }
 
-  .nav-icons span:not(:last-child) {
+.nav-icons span:not(:last-child) {
     margin-right: 0.5rem;
   }
   
-  .nav-icons span {
+.nav-icons span {
     font-size: 1.6rem;
     border-radius: 50%;
     border: 1px solid var(--grey);
@@ -140,14 +140,18 @@ img{
     transition: all 300ms ease-in-out;
   }
   
-  .nav-icons span:hover {
+.nav-icons span:hover {
     background-color: var(--pink);
   }
   
-  .nav-icons .fas {
+.nav-icons .fas {
     transition: all 300ms ease-in-out;
   }
   
-  .nav-icons span:hover .fas {
+.nav-icons span:hover .fas {
     color: var(--white);
   }
+
+.bars{
+    display: none;
+}
