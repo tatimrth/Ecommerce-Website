@@ -74,7 +74,7 @@ img {
 .loader {
   height: 100vh;
   width: 100vw;
-  background: url("./images/loader.svg") center/30rem no-repeat fixed;
+  background: url("./images/load.svg") center/10rem no-repeat fixed;
 }
 
 #pre-loader.hide {
@@ -84,7 +84,7 @@ img {
 
 @media only screen and (max-width: 567px) {
   .loader {
-    background-size: 20rem;
+    background-size: 5rem;
   }
 }
 
@@ -490,6 +490,10 @@ img {
   .buttons-group button {
     padding: 1rem 2.5rem;
     font-size: 1.5rem;
+  }
+
+  .banner img.special_01 {
+    left: 40%;
   }
 }
 
